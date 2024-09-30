@@ -4,7 +4,7 @@ import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
 import { useEffect, useRef, useState } from "react";
 
-import { hightlightsSlides } from "s";
+import { hightlightsSlides } from "../Constants/index";
 import { pauseImg, playImg, replayImg } from "../utils";
 
 const VideoCarousel = () => {
